@@ -97,9 +97,6 @@
                 <label class="col-span-2 text-xs text-muted-foreground">账户切换次数</label>
                 <input v-model.number="localSettings.retry.max_account_switch_tries" type="number" min="1" class="col-span-2 rounded-2xl border border-input bg-background px-3 py-2" />
 
-                <label class="col-span-2 text-xs text-muted-foreground">失败阈值</label>
-                <input v-model.number="localSettings.retry.account_failure_threshold" type="number" min="1" class="col-span-2 rounded-2xl border border-input bg-background px-3 py-2" />
-
                 <label class="col-span-2 text-xs text-muted-foreground">对话冷却（小时）</label>
                 <input v-model.number="textRateLimitCooldownHours" type="number" min="1" max="24" step="1" class="col-span-2 rounded-2xl border border-input bg-background px-3 py-2" />
 
